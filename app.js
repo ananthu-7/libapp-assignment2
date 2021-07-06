@@ -29,7 +29,7 @@ app.use('/logins',login);
 app.use('/signups',signup);
 
 app.get('/',function(req,res){
-    res.render("index",
+    res.render("logins",
     {
         nav,
         title:'Library'
